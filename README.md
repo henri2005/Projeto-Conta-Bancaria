@@ -1,18 +1,12 @@
-## Getting Started
+## Projeto Conta Bancária - Java Developer
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+O projeto consiste na simulação das funcionalidades de um sistema bancário comum, contendo métodos como sacar, depositar e imprimirExtrato, mas também adicionando taxas e tarifas para algumas destas operações, como forma de deixá-las mais próximas ao mundo real.
 
-## Folder Structure
+## Funcionalidades do Projeto
 
-The workspace contains two folders by default, where:
+O projeto possui quatro funcionalidades principais:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `SAQUE`: O usuário tem direito a sacar um valor do saldo estabelecido, diminuindo o valor desse saldo;
+- `DEPOSITO`: O usuário pode também depositar um valor na sua conta. No caso da conta corrente, o depósito vem sempre com uma taxa a ser cobrada pelo uso da conta.
+- `SOLICITAR EXTRATO`: O usuário pode solicitar seu extrato, onde são fornecidas suas informações pessoais do cliente.
+- `IMPRIMIR EXTRATO`: Continuando o método anterior, ele é iniciado com a solicitação do extrato. Então, imprime esse extrato com as informações da conta.
